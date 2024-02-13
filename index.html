@@ -8,7 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <style>
         .font-bebas {
@@ -20,12 +21,41 @@
             font-family: "Roboto", sans-serif;
             font-style: normal;
         }
+
+        .font-monserrat {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
     </style>
 </head>
 
 <body>
-    <header class="">
-        <nav></nav>
+    <header>
+        <nav class=" bg-[#FFFBF0] px-32 py-16  ">
+            <div class="flex items-center justify-between mx-auto max-w-7xl w-full">
+                <div class="flex items-center">
+                    <img class="w-15 h-10" src="icons/logo1.png" alt="">
+                    <h1 class="hidden md:contents  font-monserrat font-bold  text-2xl"><span
+                            class="text-[#A4BC46]">Penguin</span><span class="text-[#363958]">Fashion</span></h1>
+                </div>
+                <div class="">
+                    <ul class="hidden md:flex items-center justify-end font-roboto font-medium text-base">
+                        <li class="mx-1">Home</li>
+                        <li class="mx-1">Product</li>
+                        <li class="mx-1">About us</li>
+                        <li class="mx-1">Contact us</li>
+                    </ul>
+                </div>
+                <div class=" md:hidden w-7 h-7 mx-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg></div>
+            </div>
+
+        </nav>
         <section class=" bg-[#FFFBF0] px-32 py-16">
             <div class=" md:flex items-center justify-between  mx-auto max-w-7xl">
                 <div class="w-full md:w-1/2 px-8">
@@ -57,7 +87,7 @@
         </section>
     </header>
     <main>
-        <section class="px-32 py-16">
+        <section class="px-32 py-16 mx-auto max-w-7xl">
             <h1 class="uppercase text-4xl font-bold md:px-8 my-8">Woman Jacket</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <!-- Cart 01-->
@@ -73,7 +103,7 @@
                             ideas about yellow raincoat,
                             raincoats for women, yellow coat.</p>
                     </div>
-                    <div class="flex justify-between items-center  mt-4">
+                    <div class=" sm:flex justify-between items-center  mt-4">
                         <h2 class="text-3xl font-roboto font-black text-[#FABE4C]">$234</h2>
                         <button
                             class="uppercase text-white  bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-3 py-2 rounded-2xl font-bold">
@@ -96,7 +126,7 @@
                             ideas about yellow raincoat,
                             raincoats for women, yellow coat.</p>
                     </div>
-                    <div class="flex justify-between items-center  mt-4">
+                    <div class="sm:flex justify-between items-center  mt-4">
                         <h2 class="text-3xl font-roboto font-black text-[#FABE4C]">$234</h2>
                         <button
                             class="uppercase text-white  bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-3 py-2 rounded-2xl font-bold">
@@ -119,7 +149,7 @@
                             ideas about yellow raincoat,
                             raincoats for women, yellow coat.</p>
                     </div>
-                    <div class="flex justify-between items-center  mt-4">
+                    <div class="sm:flex justify-between items-center  mt-4">
                         <h2 class="text-3xl font-roboto font-black text-[#FABE4C]">$234</h2>
                         <button
                             class="uppercase text-white  bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-3 py-2 rounded-2xl font-bold">
@@ -145,7 +175,7 @@
                             ideas about yellow raincoat,
                             raincoats for women, yellow coat.</p>
                     </div>
-                    <div class="flex justify-between items-center  mt-4">
+                    <div class="sm:flex justify-between items-center  mt-4">
                         <h2 class="text-3xl font-roboto font-black text-[#FABE4C]">$234</h2>
                         <button
                             class="uppercase text-white  bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-3 py-2 rounded-2xl font-bold">
@@ -168,7 +198,7 @@
                             ideas about yellow raincoat,
                             raincoats for women, yellow coat.</p>
                     </div>
-                    <div class="flex justify-between items-center  mt-4">
+                    <div class="sm:flex justify-between items-center  mt-4">
                         <h2 class="text-3xl font-roboto font-black text-[#FABE4C]">$234</h2>
                         <button
                             class="uppercase text-white  bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-3 py-2 rounded-2xl font-bold">
@@ -191,7 +221,7 @@
                             ideas about yellow raincoat,
                             raincoats for women, yellow coat.</p>
                     </div>
-                    <div class="flex justify-between items-center  mt-4">
+                    <div class="sm:flex justify-between items-center  mt-4">
                         <h2 class="text-3xl font-roboto font-black text-[#FABE4C]">$234</h2>
                         <button
                             class="uppercase text-white  bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-3 py-2 rounded-2xl font-bold">
@@ -204,13 +234,12 @@
                 </div>
             </div>
         </section>
-        <div></div>
-        <section class="px-32 py-16 md:flex flex-row-reverse justify-around items-center">
+        <section class="px-32 py-16 md:flex flex-row-reverse justify-around items-center mx-auto max-w-7xl">
             <div class="w-full md:w-1/2 py-4 md:mx-8">
                 <img class="" src="images/shopping.png" alt="">
             </div>
             <div class="w-full md:w-1/2 items-center mx-auto sm:mt-8">
-                <div class="md:flex items-center  bg-white rounded-xl p-4 m-4 drop-shadow-lg">
+                <div class="md:flex items-center mx-auto bg-white rounded-xl p-4 m-4 drop-shadow-lg">
                     <img class="w-16 md:w-20 md:h-20 sm:mx-auto md:mx-4 my-4" src="icons/house.png" alt="">
                     <div class="mx-4">
                         <h4 class="font-bold font-roboto text-2xl text-[#363958]">Find the Perfect Fit</h4>
@@ -218,7 +247,7 @@
                             every body.</p>
                     </div>
                 </div>
-                <div class="md:flex items-center  bg-white rounded-xl p-4 m-4 drop-shadow-lg">
+                <div class="md:flex items-center mx-auto bg-white rounded-xl p-4 m-4 drop-shadow-lg">
                     <img class="w-16 md:w-20 md:h-20 sm:mx-auto md:mx-4 my-4" src="icons/box.png" alt="">
                     <div class="mx-4">
                         <h4 class="font-bold font-roboto text-2xl text-[#363958]">Free Exchanges</h4>
@@ -226,7 +255,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="md:flex items-center  bg-white rounded-xl p-4 m-4 drop-shadow-lg">
+                <div class="md:flex items-center mx-auto bg-white rounded-xl p-4 m-4 drop-shadow-lg">
                     <img class="w-16 md:w-20 md:h-20 sm:mx-auto md:mx-4 my-4" src="icons/question.png" alt="">
                     <div class="mx-4">
                         <h4 class="font-bold font-roboto text-2xl text-[#363958]">Contact Our Seller</h4>
@@ -236,7 +265,6 @@
                 </div>
 
             </div>
-
         </section>
     </main>
     <footer>
